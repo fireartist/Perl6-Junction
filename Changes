@@ -1,3 +1,8 @@
+1.50000 2012-09-11
+
+    - Add support for smartmatch (~~) for perl 5.10.1 and higher.
+      (Ricardo Signes)
+
 1.40000 2008-06-20
 
     - Added 'values' method to ensure that we can fetch data from junctions

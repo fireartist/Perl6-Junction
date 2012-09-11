@@ -1,6 +1,6 @@
 package Perl6::Junction::Base;
 use strict;
-our $VERSION = '1.40000';
+our $VERSION = '1.50000';
 
 use overload(
     '=='   => "num_eq",
