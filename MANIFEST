@@ -17,3 +17,6 @@ t/no_import.t
 t/none.t
 t/one.t
 META.yml                                 Module meta-data (added by MakeMaker)
+META.json
+MYMETA.yml
+MYMETA.json
