@@ -1,6 +1,6 @@
 package Perl6::Junction::None;
 use strict;
-our $VERSION = '1.50000';
+our $VERSION = '1.60000';
 
 use base 'Perl6::Junction::Base';
 

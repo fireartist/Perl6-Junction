@@ -1,3 +1,8 @@
+1.60000 2013-08-21
+
+    - Removed support for smartmatch - as of perl 5.18.0 smartmatch is 
+      marked as experimental, and subject to change or removal.
+
 1.50000 2012-09-11
 
     - Add support for smartmatch (~~) for perl 5.10.1 and higher.
