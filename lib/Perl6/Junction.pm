@@ -91,7 +91,6 @@ Returns an object which overloads the following operators:
 
   '<',  '<=', '>',  '>=', '==', '!=', 
   'lt', 'le', 'gt', 'ge', 'eq', 'ne', 
-  '~~'
 
 Returns true only if B<all> arguments test true according to the operator 
 used.
@@ -102,7 +101,6 @@ Returns an object which overloads the following operators:
 
   '<',  '<=', '>',  '>=', '==', '!=', 
   'lt', 'le', 'gt', 'ge', 'eq', 'ne', 
-  '~~'
 
 Returns true if B<any> argument tests true according to the operator used.
 
@@ -112,7 +110,6 @@ Returns an object which overloads the following operators:
 
   '<',  '<=', '>',  '>=', '==', '!=', 
   'lt', 'le', 'gt', 'ge', 'eq', 'ne', 
-  '~~'
 
 Returns true only if B<no> argument tests true according to the operator 
 used.
@@ -123,7 +120,6 @@ Returns an object which overloads the following operators:
 
   '<',  '<=', '>',  '>=', '==', '!=', 
   'lt', 'le', 'gt', 'ge', 'eq', 'ne', 
-  '~~'
 
 Returns true only if B<one and only one> argument tests true according to 
 the operator used.

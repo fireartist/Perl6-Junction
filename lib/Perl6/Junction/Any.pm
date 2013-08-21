@@ -4,30 +4,6 @@ our $VERSION = '1.50000';
 
 use base 'Perl6::Junction::Base';
 
-BEGIN {
-  if ($] >= 5.010001) {
-    eval q<
-sub match {
-    my ( $self, $other, $is_rhs ) = @_;
-
-    if ($is_rhs) {
-        for (@$self) {
-            return 1 if $other ~~ $_;
-        }
-
-        return;
-    }
-
-    for (@$self) {
-        return 1 if $_ ~~ $other;
-    }
-
-    return;
-}
->
-  }
-}
-
 sub num_eq {
     return regex_eq(@_) if ref( $_[1] ) eq 'Regexp';
 

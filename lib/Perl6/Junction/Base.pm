@@ -19,8 +19,6 @@ use overload(
     '""'   => sub {shift},
 );
 
-use if ($] >= 5.010001), overload => '~~' => 'match';
-
 sub new {
     my ( $class, @param ) = @_;
     return bless \@param, $class;
