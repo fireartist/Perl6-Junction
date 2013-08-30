@@ -11,5 +11,10 @@ WriteMakefile(
                      Carp       => 0,
                      Test::More => 0,
     },
+    META_MERGE    => {
+        resources => {
+            repository => 'https://github.com/fireartist/Perl6-Junction',
+        },
+    },
 );
 
