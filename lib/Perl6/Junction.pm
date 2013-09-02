@@ -152,7 +152,7 @@ want to export them.
 
 When comparing against a regular expression, you must remember to use a 
 regular expression object: C<qr/\d/> B<Not> C</d/>. You must also use either 
-C<==> or C<!=>. This is because C<=~> and C<!~> cannot be overriden.
+C<==> or C<!=>. This is because C<=~> and C<!~> cannot be overridden.
 
 =head1 TO DO
 
@@ -171,7 +171,7 @@ Submit to the CPAN bugtracker L<http://rt.cpan.org>
 L<Quantum::Superpositions> provides the same functionality as this, and 
 more. However, this module provides this limited functionality at a much 
 greater runtime speed, with my benchmarks showing between 500% and 6000% 
-improvment.
+improvement.
 
 L<http://dev.perl.org/perl6/doc/design/exe/E06.html> - "The Wonderful World 
 of Junctions".
